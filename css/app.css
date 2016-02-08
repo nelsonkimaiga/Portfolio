@@ -55,6 +55,10 @@ p {
     border-radius: 50%;
     border: 0;
 }
+
+img{
+    border: 0;
+}
 /*
  * Header
  */
