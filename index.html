@@ -518,15 +518,7 @@
 
         mesh = new THREE.ParticleSystem( geometry, material );
         scene.add( mesh );
-
-//        var gui = new dat.GUI();
-//        gui.add( material.uniforms.pointColor.value, 'x', 0.0, 1.0 ).name( 'red' );
-//        gui.add( material.uniforms.pointColor.value, 'y', 0.0, 1.0 ).name( 'green' );
-//        gui.add( material.uniforms.pointColor.value, 'z', 0.0, 1.0 ).name( 'blue' );
-//        gui.add( material.uniforms.pointColor.value, 'w', 0.0, 1.0 ).name( 'alpha' );
-//        gui.add( material.uniforms.pointSize, 'value', 0.0, 10.0 ).name( 'size' );
-//        gui.add( controls, 'enabled' ).name( 'auto move' );
-
+        
         scene.add( new THREE.Mesh( new THREE.CubeGeometry( 500, 500, 500 ), new THREE.MeshBasicMaterial( { color: 0xffffff, wireframe: true, opacity: 0, transparent: true } ) ) );
 
       }
