@@ -20,7 +20,7 @@ h6,
 
 /*foundation icons*/
 .icons{
- font-size:65px;
+ font-size:58px;
 }
 
 .dev-icons{
@@ -28,6 +28,13 @@ h6,
 }
 
 .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -232,7 +239,7 @@ img{
 margin-top: 20px;
 }
 
-.covero-button {
+.cover-button {
     position: absolute;
     width: 100%;
     bottom: 30px;
@@ -266,6 +273,10 @@ margin-top: 20px;
 }
 .static-bg {
     background-size: contain;
+}
+
+.fade.in {
+  opacity: 1;
 }
 
 /*works/portfolio*/
@@ -1427,3 +1438,18 @@ margin-top: 20px;
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
