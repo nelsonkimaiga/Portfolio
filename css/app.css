@@ -18,6 +18,15 @@ h6,
     font-family: 'Raleway', serif;
 }
 
+/*foundation icons*/
+.icons{
+ font-size:65px;
+}
+
+.dev-icons{
+    font-size: 20px;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -1417,3 +1426,4 @@ margin-top: 20px;
       padding: .9em 0 .2em 0;
   }
 }
+
