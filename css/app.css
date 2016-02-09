@@ -1276,21 +1276,8 @@ margin-top: 20px;
   .cl-effect-7 a::before, .cl-effect-7 a::after {
       left: 0px;
   }
-  .search-bar input[type="text"] {
-      font-size: 14px;
-          padding: 8px 19px 8px 8px;
-  }
   .navbar-header {
       width: 59%;
-  }
-  .search-bar {
-      width: 37%;
-          margin: 3px auto 0;
-  }
-  .search-bar input[type="submit"] {
-      left: 83px;
-      background-size: 68%;
-      top: 10px;
   }
   .navbar-collapse.in {
       overflow-y: inherit;
@@ -1356,17 +1343,7 @@ margin-top: 20px;
   .bottom-grid {
       padding: 0;
   }
-  .year {
-      width: 20%;
-  }
-  .year {
-     width: 20%;
-         padding: .8em 0;
-  }
-  .qualification h4 {
-          margin-top: 13px;
-      font-size: 1em;
-  }
+  
   .bottom-grid-right {
       padding: 0;
   }
@@ -1381,16 +1358,8 @@ margin-top: 20px;
       height: 3px;
       margin: 0 auto 1em;
   }
-  .galry-grids {
-      padding: 2px;
-      width: 50%;
-      float: left;
-  }
   .contact-info h3 {
       font-size: 1.5em;
-  }
-  .qualification p {
-      font-size: .875em;
   }
   .portfolio h3 {
       font-size: 1.5em;
