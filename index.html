@@ -33,7 +33,7 @@
                     return false;
                 }
                 
-                if (y==null || y == ""){
+                if (y==null || y == "" || (y.value < 10) || (isNaN(y.value))){
                     alert("number must be filled out");
                     return false;
                 }
