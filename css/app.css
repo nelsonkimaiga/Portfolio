@@ -1428,3 +1428,10 @@ margin-top: 20px;
     width: 1170px;
   }
 }
+
+/*404 page*/
+#error-message{
+    font-size: 40px;
+    text-align: justify;
+    padding-top: 130px;
+}
