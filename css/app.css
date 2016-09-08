@@ -75,6 +75,10 @@ p {
 img{
     border: 2px;
 }
+
+.img-rounded {
+  border-radius: 500px;
+}
 /*
  * Header
  */
